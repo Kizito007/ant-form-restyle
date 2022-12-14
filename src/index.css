@@ -1,0 +1,37 @@
+body {
+  background: #f2f2f2;
+}
+.app {
+  background: #fff;
+  padding: 50px 60px;
+  border-radius: 30px;
+  margin: 50px 90px;
+}
+:where(.css-dev-only-do-not-override-26rdvq).ant-row {
+  display: flex;
+  flex-flow: row wrap;
+  min-width: 0;
+  width: 35%;
+}
+:where(.css-dev-only-do-not-override-26rdvq).ant-input-affix-wrapper
+  > input.ant-input {
+  margin-left: 10px;
+}
+:where(.css-dev-only-do-not-override-26rdvq) a {
+  color: inherit;
+  text-decoration: underline;
+}
+.workspace-div {
+  position: absolute;
+  right: 185px;
+  top: 135px;
+}
+.workspace {
+  width: 380px;
+}
+.member-text {
+  float: right;
+  position: relative;
+  right: 150px;
+  top: -55px;
+}
